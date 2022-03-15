@@ -1,6 +1,6 @@
 # LATTICE
 
-PyTorch implementation for  ACM Multimedia 2021 paper: [Mining Latent Structures for Multimedia Recommendation](https://arxiv.org/abs/2104.09036)
+PyTorch implementation for  ACM Multimedia 2021 paper: [Mining Latent Structures for Multimedia Recommendation](https://dl.acm.org/doi/10.1145/3474085.3475259)
 
 
 
@@ -65,7 +65,7 @@ If you want to use our codes in your research, please cite:
                Wang, Shuhui and 
                Wang, Liang},
   booktitle = {Proceedings of the 29th ACM International Conference on Multimedia},
-  pages     = {--},
+  pages     = {3872–3880},
   year      = {2021}
 }
 ```
