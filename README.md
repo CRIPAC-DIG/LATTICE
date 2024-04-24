@@ -1,18 +1,12 @@
 # LATTICE
 
-PyTorch implementation for  ACM Multimedia 2021 paper: [Mining Latent Structures for Multimedia Recommendation](https://dl.acm.org/doi/10.1145/3474085.3475259)
+<img src="lattice.png" alt="model" style="zoom: 50%;" />
 
+This is the code for the ACM Multimedia 2021 Paper: [Mining Latent Structures for Multimedia Recommendation](https://dl.acm.org/doi/10.1145/3474085.3475259).
 
+## Usage
 
-## Dependencies
-
-- Python 3.6
-- torch==1.5.0
-- scikit-learn==0.24.2
-
-
-
-## Dataset Preparation
+### Dataset Preparation
 
 - Download **5-core reviews data**, **meta data**, and **image features** from [Amazon product dataset](http://jmcauley.ucsd.edu/data/amazon/links.html). Put data into the directory `data/meta-data/`.
 
@@ -35,7 +29,7 @@ PyTorch implementation for  ACM Multimedia 2021 paper: [Mining Latent Structures
 
 - We provide processed data [Baidu Yun](https://pan.baidu.com/s/1SWe-XE23Nn0i4xSOXV_JyQ) (access code: m37q), [Google Drive](https://drive.google.com/drive/folders/1sFg9W2wCexWahjqtN6MVc4f4dMj5hyFp?usp=sharing).
 
-## Usage
+### Quick Start
 
 Start training and inference as:
 
@@ -49,11 +43,15 @@ For cold-start settings:
 python main.py --dataset {DATASET} --core 0 --verbose 1 --lr 1e-5
 ```
 
+## Requirements
 
+- Python 3.6
+- torch==1.5.0
+- scikit-learn==0.24.2
 
 ## Citation
 
-If you want to use our codes in your research, please cite:
+Please cite our paper if you use the code:
 
 ```
 @inproceedings{LATTICE21,
